@@ -1,0 +1,9 @@
+html
+  head
+    title= title
+body
+  form(action='/hola', method='GET')
+    p
+      | Nombre: 
+      input(type='text', name='nombre', value='')
+    input(type='submit', value='Submit')
